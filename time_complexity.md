@@ -349,7 +349,7 @@ Auxiliary Space: O(1)
 
 - Bubble sort is easy to understand and implement.
 - It does not require any additional memory space.
-- It is a stable sorting algorithm, meaning that elements with the same key value maintain their relative order in the sorted output.
+- It is a **stable** sorting algorithm, meaning that elements with the same key value maintain their relative order in the sorted output.
 
 **Disadvantages of Bubble Sort:**
 
@@ -391,6 +391,8 @@ C： [1, 7, 3, 9, 10, 13, 8, 12, 15, 19]	D：[1, 9, 19, 7, 3, 10, 13, 15, 8, 12]
 > **Selection sort** is a simple and efficient sorting algorithm that works by repeatedly selecting the smallest (or largest) element from the unsorted portion of the list and moving it to the sorted portion of the list. 
 
 The algorithm repeatedly selects the smallest (or largest) element from the unsorted portion of the list and swaps it with the first element of the unsorted part. This process is repeated for the remaining unsorted portion until the entire list is sorted. 
+
+ 
 
 ```python
 A = [64, 25, 12, 22, 11]
