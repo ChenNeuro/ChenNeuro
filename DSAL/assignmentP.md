@@ -39,8 +39,15 @@ Updated 0940 GMT+8 Feb 19, 2024
 ## 2. 提交内容
 
 你的GitHub网址及截图。
+https://github.com/ChenNeuro/ChenNeuro/tree/main
 
+![Screenshot 2024-05-28 at 07.53.28](/Users/chenyihao/Desktop/Screenshot 2024-05-28 at 07.53.28.png)
 
+### ![Screenshot 2024-05-28 at 07.58.09](/Users/chenyihao/Library/Application Support/typora-user-images/Screenshot 2024-05-28 at 07.58.09.png)![Screenshot 2024-05-28 at 07.58.57](/Users/chenyihao/Library/Application Support/typora-user-images/Screenshot 2024-05-28 at 07.58.57.png)
+
+![Screenshot 2024-05-28 at 07.59.55](/Users/chenyihao/Desktop/Screenshot 2024-05-28 at 07.59.55.png)
+
+暂时就提交这么多吧，考完再精化
 
 ## 3. 评分标准
 
