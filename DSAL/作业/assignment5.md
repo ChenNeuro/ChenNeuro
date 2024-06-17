@@ -382,16 +382,14 @@ class TreeNode:
         self.left = None
         self.right = None
 
-
 def build(pre, mid):
     if not pre:
         return None
     root = TreeNode(pre[0])
     k = mid.index(pre[0])
-    root.left = build(pre[1:k+1], mid[:k])
-    root.right = build(pre[k+1:], mid[k+1:])
+    root.left = build(pre[1:k+1], mid[:k])  # [1:k] visits (k-1) elements, pre[1:k+1] visits first k, indicates the number of left length.
+    root.right = build(pre[k+1:], mid[k+1:]) # same for right
     return root
-
 
 def postOrder(root):
     output = []
@@ -402,7 +400,6 @@ def postOrder(root):
     output.append(root.val)
     return "".join(output)
 
-
 while True:
     try:
         pre = input()
@@ -412,9 +409,6 @@ while True:
 
     except EOFError:
         break
-
-# 2024.03.15 有点难度，需要多练习
-
 ```
 
 
